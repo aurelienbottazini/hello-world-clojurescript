@@ -1,0 +1,2 @@
+^{:log-syntax-error-style :concise}
+{:main hello-world.core}
