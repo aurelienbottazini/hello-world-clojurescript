@@ -1,2 +1,5 @@
 ^{:log-syntax-error-style :concise}
-{:main hello-world.core}
+{
+ :main hello-world.core
+ :devcards true
+ }
