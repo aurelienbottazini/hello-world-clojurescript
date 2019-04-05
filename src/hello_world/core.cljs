@@ -5,11 +5,7 @@
    [ devcards.core :refer [defcard deftest dom-node]]))
 
 (defcard app-card
-  "Example card" "foo")
-
-(deftest sample-test
-  (testing "happy test"
-    (is (= 1 1))))
+  "Example card" "Example dev card")
 
 (when-let [app-elem (js/document.querySelector "#app")]
   (.render js/ReactDOM
