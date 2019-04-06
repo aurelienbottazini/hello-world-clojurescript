@@ -4,8 +4,8 @@
    [cljs.test :refer [is testing]]
    [ devcards.core :refer [defcard deftest dom-node]]))
 
-(defcard app-card
-  "Example card" "Example dev card")
+(defcard example-dev-card
+  "Example dev card title" "Example dev card text")
 
 (when-let [app-elem (js/document.querySelector "#app")]
   (.render js/ReactDOM

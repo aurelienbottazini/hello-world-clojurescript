@@ -1,7 +1,4 @@
 {
- :log-syntax-error-style :concise
  :css-dirs ["resources/public/css"]
- :auto-testing true
- :watch-dirs ["src" "tests"]
- :extra-main-files {:cards {:main hello-world.cards}}
+ :watch-dirs ["src"]
  }
