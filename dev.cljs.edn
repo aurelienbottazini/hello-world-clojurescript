@@ -1,0 +1,8 @@
+^{:watch-dirs ["src" "tests"]
+  :auto-testing true
+  :extra-main-files {:cards {:main hello-world.cards}}
+  }
+{
+ :main hello-world.core
+ :devcards true
+ }
