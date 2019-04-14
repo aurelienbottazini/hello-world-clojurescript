@@ -7,5 +7,6 @@
         devcards {:mvn/version "0.2.5"}
         reagent {:mvn/version "0.8.1"}
         re-frame {:mvn/version "0.10.6"}
+        org.omcljs/om {:mvn/version "1.0.0-beta4"}
         }
  :paths ["src" "resources" "target" "tests"]}

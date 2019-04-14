@@ -2,7 +2,8 @@
   (:require [devcards.core]
             [react-dom]
             [hello-world.reframe :as hrf]
-            [hello-world.reagent :as hre]))
+            [hello-world.reagent :as hre]
+            [hello-world.omnext :as hon]))
 
 
 (when-let [app-elem (js/document.querySelector "#app-react")]
@@ -12,3 +13,4 @@
 
 (hre/mount-reagent-component)
 (hrf/mount-reframe-clock)
+(hon/mount-omnext-component)
