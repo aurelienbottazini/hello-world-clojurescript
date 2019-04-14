@@ -14,3 +14,4 @@
 (hre/mount-reagent-component)
 (hrf/mount-reframe-clock)
 (hon/mount-omnext-component)
+(hon/mount-omnext-clock)
